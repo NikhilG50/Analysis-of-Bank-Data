@@ -24,11 +24,11 @@ WHERE
     Stage IN ('Checker')
         AND Status IN ('Reject') 
         AND Case_Id <> (SELECT  Case_Id
-					FROM
-						Case_transaction_details
-					WHERE
-						Stage IN ('Maker')
-							AND Status IN ('Reverify'));
+			FROM
+				Case_transaction_details
+			WHERE
+				Stage IN ('Maker')
+					AND Status IN ('Reverify'));
 
 -- 3)Top Agent names with who processed more applications?
 -- Please Note:  Hear, i added answers in supparate quiries since i am not able to merge count values from inner query with outer query
