@@ -21,6 +21,6 @@ Vijay -2
 ### Files,
 - Agent_Table.csv: Agent Data: where agent details are stored
 - Case_transaction_details.csv: Case_transaction_details: Each step in Backend operation is stored.
-- Analysis_of_Bank_Data.sql: Cotsines the solution to the above problems
+- Analysis_of_Bank_Data.sql: Contains the solution to the above problems
 
 Thank you...
