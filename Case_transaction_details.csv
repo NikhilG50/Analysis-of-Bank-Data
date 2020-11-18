@@ -1,0 +1,9 @@
+Case_Id,Stage,Login_Time,Logout_time,Agent_id,Status
+101,Maker,10:20,10:30,2,Success
+102,Maker,10:25,10:35,1,Success
+103,Maker,10:40,10:50,2,Success
+101,Checker,10:45,11:00 ,3,Success
+101,Approver,11:15,11:30,2,Success
+102,Checker,10:50 ,11:00 ,1,Reject
+102,Maker,11:15,11:45,4,Reverify
+103,Checker,11:30,11:40,2,Reject
